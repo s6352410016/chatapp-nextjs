@@ -6,7 +6,7 @@ import React from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import { HiPaperAirplane, HiPhoto } from "react-icons/hi2";
 import MessageInput from "./MessageInput";
-import { CldUploadButton, CloudinaryUploadWidgetResults } from "next-cloudinary";
+import { CldUploadButton } from "next-cloudinary";
 
 const Form = () => {
     const { conversationId } = useConversation();
